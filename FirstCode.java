@@ -1,4 +1,9 @@
+
+import java.util.Scanner;
 class FirstCode {
+
+
+
     public static void main(String args[]){
         // System.out.print("Hello Ajay"); // in this it will adding each lines with same line but in using println() or \n backslash n is give us to next line 
         // System.out.print("Hello World");
@@ -8,12 +13,18 @@ class FirstCode {
 
 // Variables
          
-        int a = 45;
-        int b = 5;
-        int sum =  a+b;
+        // int a = 45;
+        // int b = 5;
+        // int sum =  a+b;
          
+        // // System.out.println(sum);
+        // int mul = a* b ;
+        // System.out.print(mul);
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
         System.out.println(sum);
-
     }
 
 }
