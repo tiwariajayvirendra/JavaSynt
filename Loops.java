@@ -1,3 +1,4 @@
+import java.util.*;
 public class Loops {
     public static void main(String args[]){
 //////////////////////////////////////////////////////////////////
@@ -40,5 +41,22 @@ public class Loops {
     //     System.out.println("Tiwari ajay ");
         
     // }while(i < 11);
+//////////////////////////////////////////////////////
+/// 
+/// 
+    Scanner sc = new Scanner(System.in);
+    int n =sc.nextInt();
+
+    // int sum = 0;
+    // for(int i = 1; i <= n ;i++){
+    //     sum = sum+i;
+        
+    // }
+    // System.out.println(sum);
+
+    // Print the table of a number input by the user.
+    for(int i = 1; i <11; i++){
+        System.out.println(n*i);
+    }
 }
 }
