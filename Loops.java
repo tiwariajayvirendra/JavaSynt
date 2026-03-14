@@ -1,4 +1,3 @@
-import java.util.*;
 public class Loops {
     public static void main(String args[]){
 //////////////////////////////////////////////////////////////////
@@ -44,8 +43,8 @@ public class Loops {
 //////////////////////////////////////////////////////
 /// 
 /// 
-    Scanner sc = new Scanner(System.in);
-    int n =sc.nextInt();
+    // Scanner sc = new Scanner(System.in);
+    // int n =sc.nextInt();
 
     // int sum = 0;
     // for(int i = 1; i <= n ;i++){
@@ -55,8 +54,42 @@ public class Loops {
     // System.out.println(sum);
 
     // Print the table of a number input by the user.
-    for(int i = 1; i <11; i++){
-        System.out.println(n*i);
-    }
+    // for(int i = 1; i <11; i++){
+    //     System.out.println(n*i);
+    // }
+
+    //////////////////////////////////////////
+    // int a = 4;
+    // int m = 5;
+    // //Outer loop
+    // for (int i = 1; i<= a ;i++){
+        
+    //     //Inner loop
+    //    for (int j = 1; j<= m; j++){
+    //      System.out.print("*");
+    //    }
+    //     System.out.println();
+         
+    // }
+
+    // int n = 4;
+    // int m = 5;
+
+    // //outer loop
+    // for (int i = 1 ; i <=n;i++){
+    //     //inner loop
+    //     for (int j=1; j<=m; j++){
+    //         //cell -> (i,j)
+    //         if(i==1 || j== 1|| i ==n|| j == m){
+    //             System.out.print("*");
+            
+    //         }else{
+    //             System.out.print(" ");
+    //         }
+            
+    //     }
+    //     System.out.println();
+    // }
+
 }
 }
